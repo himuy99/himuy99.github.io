@@ -1,0 +1,236 @@
+/*Global*/
+@font-face {
+  font-family: 'Qanelas Soft';
+  src: url('/css/QanelasSoftDEMO-ExtraBold.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#f4f4f4;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  color: #444444;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.flex-container {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.current {
+  color: #EB6EA5;
+  border-top: 5px solid #EB6EA5;
+}
+
+/*Main */
+.main-wrapper {
+  box-sizing: border-box;
+  padding: 0px 0;
+  margin: 10px;
+  flex: 60%;
+  float: left;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: white;
+  -webkit-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.box:first-child {
+  margin-top: 0;
+}
+
+.box:last-child {
+  margin-bottom: 0;
+}
+
+.box h1 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+
+/*Sidebar*/
+.sidebar {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 30px;
+  flex: 20%;
+  color: white;
+  background-color: #EB6EA5;
+}
+
+.sidebar img {
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+/*Form*/
+.default-form {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.default-form label {
+  margin-top: 10px;
+  display: block;
+}
+.default-form input {
+  box-sizing : border-box;
+  padding: 5px;
+  width: 100%;
+}
+
+.default-form textarea {
+  box-sizing : border-box;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.button1 {
+  box-sizing : border-box;
+  width: auto;
+  font-size: 15px;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: gray;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: #EB6EA5;
+  transition: 1s;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Header*/
+header {
+  background-color: white;
+  padding: 10px 0;
+  border-bottom: rgb(250, 145, 191) solid;
+}
+
+header h1 {
+  font-size: 30px;
+  font-family: 'Qanelas Soft';
+  color: #EB6EA5;
+  display: inline;
+  margin: 0 10px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+header h1 strong {
+  color: #915DA3;
+}
+
+header img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+/*Showcase*/
+#showcase {
+  background-color: #ffc2f3;
+  background-image: url("../img/Showcase.jpg");
+  background-size: 100%;
+  min-height: 300px;
+}
+
+/*Navbar*/
+
+nav {
+  min-height: 40px;
+  background-color: white;
+}
+
+nav ul {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  flex: 1;
+  list-style: none;
+  text-align: center;
+  border-left: 1px solid lightgray;
+  border-right: none;
+}
+
+nav li:last-child {
+  border-right: 1px solid lightgray;
+}
+
+nav li a {
+  text-decoration: none;
+  color: gray;
+  display: block;
+  transition: color 1s;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+nav li a:hover {
+  color: #EB6EA5;
+  transition: 1s;
+  border-top: 5px solid #EB6EA5;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background-color: #EB6EA5;
+  color: white;
+  border-top: 3px solid #ffc2f3;
+}
+
+/*Media Queries*/
+@media(max-width: 600px) {
+
+  header {
+    text-align: center;
+  }
+
+}
