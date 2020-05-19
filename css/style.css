@@ -146,6 +146,10 @@ header {
   border-bottom: rgb(250, 145, 191) solid;
 }
 
+header a {
+  text-decoration: none;
+}
+
 header h1 {
   font-size: 30px;
   font-family: 'Qanelas Soft';
