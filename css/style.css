@@ -249,3 +249,15 @@ footer {
     width: 100px;
   }
 }
+
+@media(min-width: 2500px) {
+
+  #showcase {
+    min-height: 500px;
+  }
+
+  .sidebar img {
+    width: 300px;
+  }
+  
+}
