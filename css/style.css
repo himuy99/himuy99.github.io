@@ -171,8 +171,9 @@ header img {
 
 /*Showcase*/
 #showcase {
-  background-color: #ffc2f3;
+  background-color: white;
   background-image: url("../img/Showcase.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
   min-height: 300px;
 }
@@ -237,4 +238,14 @@ footer {
     text-align: center;
   }
 
+  #showcase {
+    min-height: 200px;
+  }
+
+}
+
+@media(max-width: 320px) {
+  .sidebar img {
+    width: 100px;
+  }
 }
